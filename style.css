@@ -1,0 +1,43 @@
+.text-size{
+    font-size: 2rem
+}
+#bihar:hover{
+   font-size: large;
+   text-decoration: underline;
+}
+#Haryana:hover{
+    font-size: large;
+    text-decoration: underline;
+ }
+ #Assam:hover{
+    font-size: large;
+    text-decoration: underline;
+ }
+.text-size-small{
+    font-size: smaller;
+}
+.color{
+     background-color: rgb(66, 63, 63);
+}
+.text{
+    color: rgb(227, 234, 235);
+}
+.border{
+    border-color: white;
+}
+.background{
+ background-color: black;
+  
+}
+.textcolor{
+    color: rgb(232, 229, 241);
+ /* font-weight: bold; */
+}
+a{
+    color: #adbbcb;
+}
+.text-blue{
+    color: blue;
+}
+
+
