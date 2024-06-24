@@ -16,11 +16,11 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg  background">
+  <nav class="navbar navbar-light navbar-expand-lg  bg-light text-light">
     <a class="navbar-brand" href="#">Weather App</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon "></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,9 +55,9 @@
 
     <div class="container">
       <div class="card-deck mb-3 text-center ">
-        <div class="card mb-4 shadow-sm color text ">
+        <div class="card mb-4 shadow-sm color text backgroundimage text-dark">
           <div class="card-header border ">
-            <h4 class="my-0 font-weight-normal ">Temp info</h4>
+            <h4 class="my-0 font-weight-bold">Temp info</h4>
           </div>
           <div class="card-body ">
             <h1 class="card-title pricing-card-title"><span id="temp_c2"></span><sup><span>&#8451;</span></sup><small
@@ -69,9 +69,10 @@
             </ul>
           </div>
         </div>
-        <div class="card mb-4 shadow-sm color text">
+        <div class="card mb-4 shadow-sm color text-dark " style="background-image: url(wind.jpeg);
+                                                            background-size: cover;">
           <div class="card-header border">
-            <h4 class="my-0 font-weight-normal">Wind info</h4>
+            <h4 class="my-0 font-weight-bold">Wind info</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title"> <span id="wind_kph2"></span><span class="text-size ">
@@ -84,9 +85,10 @@
             </ul>
           </div>
         </div>
-        <div class="card mb-4 shadow-sm color text">
+        <div class="card mb-4 shadow-sm color text-dark" style="background-image: url(humidity2.jpg);
+        background-size: cover;">
           <div class="card-header border">
-            <h4 class="my-0 font-weight-normal">Humidity info</h4>
+            <h4 class="my-0 font-weight-bold">Humidity info</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><span id="humidity2"></span><span class="text-size">%</span><small

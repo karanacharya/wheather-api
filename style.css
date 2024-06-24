@@ -26,11 +26,11 @@
     border-color: white;
 }
 .background{
- background-color: black;
+ background-color: rgb(74, 65, 65);
   
 }
 .textcolor{
-    color: rgb(232, 229, 241);
+    color: rgb(11, 10, 14);
  /* font-weight: bold; */
 }
 a{
@@ -40,4 +40,7 @@ a{
     color: blue;
 }
 
-
+.backgroundimage{
+background-image: url("sunny.jpg"); 
+ background-size: cover;
+}
